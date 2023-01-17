@@ -81,9 +81,12 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 
 .about-me {
-    margin-top: 130px;
+
     padding: 130px 155px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -169,3 +172,74 @@ td {
     font-size: 16px;
     color: #757575;
 }
+
+.resume-container {
+    display: flex;
+    margin-top: 113px;
+    gap: 70px;
+}
+
+.resume-sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-sections {
+    margin-bottom: 60px;
+    /* border-bottom: 1px solid #D1D1D1 ; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.duration {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.work-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* footer styles */
+.footer{
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact-me{
+    display: flex;
+    gap: 117px;
+}
+.contact img{
+    margin-right: 24px;
+}
+.contact-me .section-title{
+    text-align: left;
+}
+input{
+    height: 24px;
+}
+.message input[type="text"], textarea{
+    border: 0px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+}
+
